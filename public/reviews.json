@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Tom Pitterson",
+    "email": "rom@pitterson.com",
+    "title": "Ceo Of ABC Institute",
+    "desc": "This course was short but very informative and very helpful for an aspiring leader like myself. It also helped me understand how to view or understand when I receive feedback. I highly recommend it!!",
+    "img": "https://i.postimg.cc/ZRG1QQ3Q/teacher1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Lili Watson",
+    "email": "lili@watson.com",
+    "title": "Ceo Of XYZ Institute",
+    "desc": "I enjoyed the course and learned a lot from it. The content is well organised and focused on practical situations. I particularly enjoyed the bits of psychological research shared in the content.",
+    "img": "https://i.postimg.cc/fyY6QvfR/teacher2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Alen Torch",
+    "email": "alen@torch.com",
+    "title": "Manager Of DFG Institute",
+    "desc": "This course is great for me for two reasons: Its has a powerful 'why' for effective feedback process and a very convincing and practical 'how' of giving feedback - It has left me with practical execises to practise the skill and sharpen my acumen",
+    "img": "https://i.postimg.cc/J7JwX1CC/teacher4.jpg"
+  }
+]

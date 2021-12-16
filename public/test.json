@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Computer Technology",
+    "fee": "50000",
+    "desc": "Computer technology is leading to more accurate sizing and rating methods for process equipment. Heat exchangers are designed with high-precision prediction methods and complex numerical techniques to account for the local flow and temperature conditions. Fouling mitigation is just changing from an art to a science-based technology. The real benefits of sophisticated design codes will not be achieved without reliable fouling prediction methods and mitigation techniques that can be incorporated into the design phase",
+    "rating": 5,
+    "review": "41.5",
+    "img": "https://i.postimg.cc/SKhTBSbh/course1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Computer Technology",
+    "fee": "50000",
+    "desc": "Computer technology is leading to more accurate sizing and rating methods for process equipment. Heat exchangers are designed with high-precision prediction methods and complex numerical techniques to account for the local flow and temperature conditions. Fouling mitigation is just changing from an art to a science-based technology. The real benefits of sophisticated design codes will not be achieved without reliable fouling prediction methods and mitigation techniques that can be incorporated into the design phase",
+    "rating": 5,
+    "review": "41.5",
+    "img": "https://i.postimg.cc/rmhfR50V/course2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Computer Technology",
+    "fee": "50000",
+    "desc": "Computer technology is leading to more accurate sizing and rating methods for process equipment. Heat exchangers are designed with high-precision prediction methods and complex numerical techniques to account for the local flow and temperature conditions. Fouling mitigation is just changing from an art to a science-based technology. The real benefits of sophisticated design codes will not be achieved without reliable fouling prediction methods and mitigation techniques that can be incorporated into the design phase",
+    "rating": 5,
+    "review": "41.5",
+    "img": "https://i.postimg.cc/13677gTB/course3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Computer Technology",
+    "fee": "50000",
+    "desc": "Computer technology is leading to more accurate sizing and rating methods for process equipment. Heat exchangers are designed with high-precision prediction methods and complex numerical techniques to account for the local flow and temperature conditions. Fouling mitigation is just changing from an art to a science-based technology. The real benefits of sophisticated design codes will not be achieved without reliable fouling prediction methods and mitigation techniques that can be incorporated into the design phase",
+    "rating": 5,
+    "review": "41.5",
+    "img": "https://i.postimg.cc/zvc26T8t/course4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Computer Technology",
+    "fee": "50000",
+    "desc": "Computer technology is leading to more accurate sizing and rating methods for process equipment. Heat exchangers are designed with high-precision prediction methods and complex numerical techniques to account for the local flow and temperature conditions. Fouling mitigation is just changing from an art to a science-based technology. The real benefits of sophisticated design codes will not be achieved without reliable fouling prediction methods and mitigation techniques that can be incorporated into the design phase",
+    "rating": 5,
+    "review": "41.5",
+    "img": "https://i.postimg.cc/43QLZDXh/course5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Computer Technology",
+    "fee": "50000",
+    "desc": "Computer technology is leading to more accurate sizing and rating methods for process equipment. Heat exchangers are designed with high-precision prediction methods and complex numerical techniques to account for the local flow and temperature conditions. Fouling mitigation is just changing from an art to a science-based technology. The real benefits of sophisticated design codes will not be achieved without reliable fouling prediction methods and mitigation techniques that can be incorporated into the design phase",
+    "rating": 5,
+    "review": "41.5",
+    "img": "https://i.postimg.cc/fTVrXqf6/course6.jpg"
+  }
+]
