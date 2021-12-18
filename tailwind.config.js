@@ -7,7 +7,8 @@ module.exports = {
       primary: "#00BFFF",
       secondary: "#0C2340",
       gray: "#efefef",
-      white: "#fff"
+      white: "#fff",
+      transparent: "rgba(255,255,255,0.2)"
     }
   },
   variants: {

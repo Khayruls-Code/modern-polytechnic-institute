@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/f
 const Teachers = () => {
   const [teachers, setTeaches] = useState([])
   useEffect(() => {
-    fetch('./teacher.json')
+    fetch('http://localhost:5000/teachers')
       .then(res => res.json())
       .then(data => setTeaches(data))
   }, [])
@@ -12,7 +12,7 @@ const Teachers = () => {
     <div className='py-12'>
       <div className="lg-container">
         <div className="section-title text-center mb-6">
-          <p className='text-md font-medium text-primary tracking-widest'>Teachers</p>
+          <p className='text-md font-medium text-primary tracking-widest'>TEACHERS</p>
           <h1 className='text-4xl text-secondary font-bold'>Experienced Technician</h1>
         </div>
         <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-5">

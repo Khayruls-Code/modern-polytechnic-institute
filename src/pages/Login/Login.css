@@ -1,0 +1,43 @@
+.login-regi{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../../images/login.jpg);
+  background-position: 100% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login-form{
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  background: inherit;
+  overflow: hidden;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+.login-form::before{
+  content: '';
+  position: absolute;
+  background: inherit;
+  width: 100%;
+  top: -25px;
+  left: -25px;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0px 0px 500px rgba(255, 255, 255, 0.4);
+  filter: blur(20px);
+}
+.login-form form{
+  z-index: 10;
+  position: relative;
+}
+
+@media only screen and (max-width:1020px) {
+  .login-form{
+    top: 50%;
+    right: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 70px 0;
+  }
+}

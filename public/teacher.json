@@ -30,27 +30,27 @@
     "id": 4,
     "name": "Jon Due",
     "email": "jondoe@gmail.com",
-    "depertment": "Computer",
+    "depertment": "Electrical",
     "title": "CA",
-    "degree": "M.sc",
+    "degree": "BCS",
     "img": "https://i.postimg.cc/J7JwX1CC/teacher4.jpg"
   },
   {
     "id": 5,
-    "name": "Khayrul Islam",
-    "email": "khayrulislam2525@gmail.com",
-    "depertment": "Computer",
+    "name": "Ajmal Khan",
+    "email": "ajmalkhan2525@gmail.com",
+    "depertment": "Mechanical",
     "title": "CA",
     "degree": "M.sc",
     "img": "https://i.postimg.cc/xTSwyW9J/teacher5.jpg"
   },
   {
     "id": 6,
-    "name": "Khayrul Islam",
-    "email": "khayrulislam2525@gmail.com",
-    "depertment": "Computer",
+    "name": "Nion Sam",
+    "email": "nionsam2525@gmail.com",
+    "depertment": "Civil",
     "title": "CA",
-    "degree": "M.sc",
+    "degree": "B.sc ",
     "img": "https://i.postimg.cc/mgLKKCzT/teacher6.jpg"
   }
 ]

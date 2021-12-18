@@ -14,6 +14,7 @@ import img3 from '../../../images/banner/3.jpg'
 import img4 from '../../../images/banner/4.jpg'
 import img5 from '../../../images/banner/5.jpg'
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 SwiperCore.use([FreeMode, Navigation, Thumbs]);
 
 const Banner = () => {
@@ -26,7 +27,7 @@ const Banner = () => {
           <div className="slider-caption absolute z-40 text-center">
             <h1 className='lg:text-6xl text-3xl md:text-5xl font-extrabold text-white mb-4'>Apply For Your Course <br /> <span className='text-primary'>Today</span></h1>
             <button className='block relative overflow-hidden primary-btn py-3.5 px-6 bg-primary rounded-full w-40 mx-auto text-white'>
-              <Link className='relative z-10 font-semibold' to='/apply'>Apply Naw</Link>
+              <Link className='relative z-10 font-semibold' to='/admission'>Contact Now</Link>
             </button>
           </div>
         </SwiperSlide>
@@ -35,7 +36,7 @@ const Banner = () => {
           <div className="slider-caption absolute z-40 text-center">
             <h1 className='lg:text-6xl text-3xl md:text-5xl font-extrabold text-white mb-4'>A Beautiful Campus Makes The <br /> <span className='text-primary'>Study Effective</span></h1>
             <button className='block relative overflow-hidden primary-btn py-3.5 px-6 bg-primary rounded-full w-40 mx-auto text-white'>
-              <Link className='relative z-10 font-semibold' to='/apply'>Visit Naw</Link>
+              <HashLink className='relative z-10 font-semibold' to='/home#courses'>Visit Now</HashLink>
             </button>
           </div>
         </SwiperSlide>
@@ -44,7 +45,7 @@ const Banner = () => {
           <div className="slider-caption absolute z-40 text-center">
             <h1 className='lg:text-6xl text-3xl md:text-5xl font-extrabold text-white mb-4'>Education Is The Key Of <br /> <span className='text-primary'>Success</span></h1>
             <button className='block relative overflow-hidden primary-btn py-3.5 px-6 bg-primary rounded-full w-40 mx-auto text-white'>
-              <Link className='relative z-10 font-semibold' to='/apply'>Apply Naw</Link>
+              <Link className='relative z-10 font-semibold' to='/admission'>Contact Now</Link>
             </button>
           </div>
         </SwiperSlide>
@@ -53,7 +54,7 @@ const Banner = () => {
           <div className="slider-caption absolute z-40 text-center">
             <h1 className='lg:text-6xl text-3xl md:text-5xl font-extrabold text-white mb-4'>We Provide The Better Opp <br /> <span className='text-primary'>Opportunities</span></h1>
             <button className='block relative overflow-hidden primary-btn py-3.5 px-6 bg-primary rounded-full w-40 mx-auto text-white'>
-              <Link className='relative z-10 font-semibold' to='/apply'>Apply Naw</Link>
+              <Link className='relative z-10 font-semibold' to='/admission'>Contact Now</Link>
             </button>
           </div>
         </SwiperSlide>
@@ -62,7 +63,7 @@ const Banner = () => {
           <div className="slider-caption absolute z-40 text-center">
             <h1 className='lg:text-6xl text-3xl md:text-5xl font-extrabold text-white mb-4'>Apply For Your Course <br /> <span className='text-primary'>Today</span></h1>
             <button className='block relative overflow-hidden primary-btn py-3.5 px-6 bg-primary rounded-full w-40 mx-auto text-white'>
-              <Link className='relative z-10 font-semibold' to='/apply'>Apply Naw</Link>
+              <Link className='relative z-10 font-semibold' to='/admission'>Contact Now</Link>
             </button>
           </div>
         </SwiperSlide>

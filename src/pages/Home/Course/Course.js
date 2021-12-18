@@ -5,7 +5,7 @@ import { MdOutlineRecommend } from 'react-icons/md'
 import { Link } from "react-router-dom"
 
 const Course = (props) => {
-  const { course: { name, img, fee, desc, rating, review } } = props
+  const { course: { name, img, fee, desc, rating, review, _id } } = props
   return (
     <div className='course-box'>
       <img src={img} className='relative z-10' alt="" />
@@ -23,7 +23,7 @@ const Course = (props) => {
         </div>
         <h2 className='text-xl text-primary my-2'>৳{fee} <span className='text-sm'>/Month</span></h2>
         <button className='block relative overflow-hidden primary-btn py-2 px-6 bg-primary rounded-full w-30 text-white'>
-          <Link className='relative z-10 font-semibold' to='/details'>Apply Now</Link>
+          <Link className='relative z-10 font-semibold' to={`/courses/${_id}`}>Apply Now</Link>
         </button>
       </div>
     </div>

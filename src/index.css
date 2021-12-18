@@ -7,12 +7,22 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .lg-container{
   width: 95%;
   max-width: 1170px;
   margin: 0 auto;
 }
+.sm-container{
+  width: 95%;
+  max-width: 900px;
+  margin: 0 auto;
+}
 img{
   width: 100%;
+}
+.slim-border{
+  border-width: 1px;
 }

@@ -13,7 +13,7 @@ SwiperCore.use([Pagination, Navigation, Autoplay]);
 const Reviews = () => {
   const [reviews, setReviews] = useState([])
   useEffect(() => {
-    fetch('./reviews.json')
+    fetch('http://localhost:5000/reviews')
       .then(res => res.json())
       .then(data => setReviews(data))
   }, [])
@@ -22,7 +22,7 @@ const Reviews = () => {
     <div className='review py-12'>
       <div className='lg-container'>
         <div className="section-title text-center mb-6">
-          <p className='text-md font-medium text-primary tracking-widest'>Reviews</p>
+          <p className='text-md font-medium text-primary tracking-widest'>REVIEWS</p>
           <h1 className='text-4xl text-secondary font-bold'>What People Says</h1>
         </div>
         <Swiper autoplay={{
