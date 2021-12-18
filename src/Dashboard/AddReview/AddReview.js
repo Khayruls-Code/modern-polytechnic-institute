@@ -10,7 +10,7 @@ const AddReview = () => {
   const { user } = useAuth()
   const onSubmit = data => {
     data.img = imgUrl || user.photoURL
-    fetch('http://localhost:5000/reviews', {
+    fetch('https://mysterious-falls-49550.herokuapp.com/reviews', {
       method: "POST",
       headers: {
         "content-type": "application/json"

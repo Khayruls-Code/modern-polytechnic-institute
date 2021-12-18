@@ -107,7 +107,7 @@ const useFirebase = () => {
   //post user
   const addUser = (name, email, method) => {
     const data = { name, email }
-    fetch('http://localhost:5000/users', {
+    fetch('https://mysterious-falls-49550.herokuapp.com/users', {
       method: method,
       headers: {
         "content-type": "application/json"
@@ -119,7 +119,7 @@ const useFirebase = () => {
 
   //set admin
   const checkTeacher = (email) => {
-    fetch(`http://localhost:5000/users/${email}`)
+    fetch(`https://mysterious-falls-49550.herokuapp.com/users/${email}`)
       .then(res => res.json())
       .then(data => {
         setTeacher(data.teacher)

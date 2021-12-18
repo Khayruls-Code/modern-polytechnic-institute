@@ -4,7 +4,7 @@ import Course from '../Course/Course';
 const Courses = () => {
   const [courses, setCourses] = useState([])
   useEffect(() => {
-    fetch('http://localhost:5000/courses')
+    fetch('https://mysterious-falls-49550.herokuapp.com/courses')
       .then(res => res.json())
       .then(data => setCourses(data))
   }, [])

@@ -9,7 +9,7 @@ const Profile = () => {
   const [order, setOrder] = useState([])
 
   useEffect(() => {
-    fetch(`http://localhost:5000/students?email=${user?.email}`)
+    fetch(`https://mysterious-falls-49550.herokuapp.com/students?email=${user?.email}`)
       .then(res => res.json())
       .then(data => { setOrder(data) })
   }, [user?.email])

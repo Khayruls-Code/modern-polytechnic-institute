@@ -6,7 +6,7 @@ import { FaTimes } from 'react-icons/fa';
 const Students = () => {
   const [students, setStudents] = useState([])
   useEffect(() => {
-    fetch('http://localhost:5000/students')
+    fetch('https://mysterious-falls-49550.herokuapp.com/students')
       .then(res => res.json())
       .then(data => setStudents(data))
   }, [])
@@ -14,7 +14,7 @@ const Students = () => {
   const handleDelete = (id) => {
     const makeSure = window.confirm('Are you sure to want to delete the student?')
     if (makeSure) {
-      fetch(`http://localhost:5000/students/${id}`, {
+      fetch(`https://mysterious-falls-49550.herokuapp.com/students/${id}`, {
         method: "DELETE"
       })
         .then(res => res.json())

@@ -7,7 +7,7 @@ const AddTeacher = () => {
   const handleAdmin = (e) => {
     e.preventDefault()
     const data = { email }
-    fetch('http://localhost:5000/users/teacher', {
+    fetch('https://mysterious-falls-49550.herokuapp.com/users/teacher', {
       method: "PUT",
       headers: {
         "content-type": "application/json"
@@ -17,7 +17,7 @@ const AddTeacher = () => {
       .then(res => res.json())
       .then(data => {
         if (data.acknowledged === true) {
-          alert('Success made admin!!!')
+          alert('Successfully made teacher!!!')
           e.target.reset()
         }
       })
@@ -28,9 +28,9 @@ const AddTeacher = () => {
       <div className="sm-container profile py-12 px-6">
         <h1 className='text-2xl text-primary font-semibold text-center'>Make An Admin</h1>
         <form onSubmit={handleAdmin}>
-          <input onBlur={(e) => setEmail(e.target.value)} className='block w-full lg:w-3/4 mx-auto slim-border border-gray py-2.5 px-3 bg-transparent outline-none my-4 rounded-md font-semibold' type="email" placeholder='Type Email' />
+          <input onBlur={(e) => setEmail(e.target.value)} className='block w-full lg:w-3/4 mx-auto slim-border border-gray py-2.5 px-3 bg-transparent outline-none my-4 rounded-md font-semibold' type="email" placeholder='Type Email' required />
           <button type='submit' className='block relative overflow-hidden primary-btn slim-border border-gray py-3.5 px-4 bg-primary rounded-full w-40 mx-auto text-white'>
-            <span className='relative z-10 font-semibold'>Make Admin</span>
+            <span className='relative z-10 font-semibold'>Add Teacher</span>
           </button>
         </form>
       </div>

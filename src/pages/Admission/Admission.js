@@ -7,7 +7,7 @@ const Admission = () => {
   const { user } = useAuth()
 
   const onSubmit = data => {
-    fetch('http://localhost:5000/orders', {
+    fetch('https://mysterious-falls-49550.herokuapp.com/orders', {
       method: "POST",
       headers: {
         "content-type": "application/json"

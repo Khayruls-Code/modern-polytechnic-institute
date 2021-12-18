@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/f
 const Teachers = () => {
   const [teachers, setTeaches] = useState([])
   useEffect(() => {
-    fetch('http://localhost:5000/teachers')
+    fetch('https://mysterious-falls-49550.herokuapp.com/teachers')
       .then(res => res.json())
       .then(data => setTeaches(data))
   }, [])

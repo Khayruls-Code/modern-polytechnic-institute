@@ -10,7 +10,7 @@ const NewOrders = () => {
 
   //get orders
   useEffect(() => {
-    fetch('http://localhost:5000/orders')
+    fetch('https://mysterious-falls-49550.herokuapp.com/orders')
       .then(res => res.json())
       .then(data => setOrders(data))
   }, [])
@@ -18,7 +18,7 @@ const NewOrders = () => {
   //update order
   const statusHandler = (e, id) => {
     const status = { status: e.target.value }
-    fetch(`http://localhost:5000/orders/${id}`, {
+    fetch(`https://mysterious-falls-49550.herokuapp.com/orders/${id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json"
@@ -35,7 +35,7 @@ const NewOrders = () => {
     newObj.profileImg = user.photoURL
     newObj.status = 'Approved'
     delete newObj._id
-    fetch('http://localhost:5000/students', {
+    fetch('https://mysterious-falls-49550.herokuapp.com/students', {
       method: "POST",
       headers: {
         "content-type": "application/json"
@@ -46,7 +46,7 @@ const NewOrders = () => {
       .then(data => {
         if (data.acknowledged === true) {
           alert('Student Added Successfully !!!')
-          fetch(`http://localhost:5000/orders/${id}`, {
+          fetch(`https://mysterious-falls-49550.herokuapp.com/orders/${id}`, {
             method: "DELETE"
           })
             .then(res => res.json())
@@ -64,7 +64,7 @@ const NewOrders = () => {
   const handleDelete = (id) => {
     const makeSure = window.confirm('Are you sure to want to delete?')
     if (makeSure) {
-      fetch(`http://localhost:5000/orders/${id}`, {
+      fetch(`https://mysterious-falls-49550.herokuapp.com/orders/${id}`, {
         method: "DELETE"
       })
         .then(res => res.json())

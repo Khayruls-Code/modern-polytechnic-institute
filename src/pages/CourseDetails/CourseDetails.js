@@ -14,7 +14,7 @@ const CourseDetails = () => {
   const [course, setCourse] = useState({})
   const { user } = useAuth()
   useEffect(() => {
-    fetch(`http://localhost:5000/courses/${courseId}`)
+    fetch(`https://mysterious-falls-49550.herokuapp.com/courses/${courseId}`)
       .then(res => res.json())
       .then(data => setCourse(data))
   }, [courseId])
@@ -24,7 +24,7 @@ const CourseDetails = () => {
   const onSubmit = data => {
     data.img = course?.img
     data.status = "Pending"
-    fetch('http://localhost:5000/orders', {
+    fetch('https://mysterious-falls-49550.herokuapp.com/orders', {
       method: "POST",
       headers: {
         "content-type": "application/json"
@@ -37,7 +37,7 @@ const CourseDetails = () => {
           alert('Successfully Purchased, please wait for the resonse!!!')
         }
       })
-    fetch('http://localhost:5000/student-order', {
+    fetch('https://mysterious-falls-49550.herokuapp.com/student-order', {
       method: "POST",
       headers: {
         "content-type": "application/json"
